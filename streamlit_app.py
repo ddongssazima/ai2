@@ -44,7 +44,7 @@ def display_right_content(labels):
     # 1st Row - Images based on labels
     for i, label in enumerate(labels[:3]):
         with cols[i]:
-            st.image(f"https://i.ibb.co/HN80zj7/BF-32192303-1.jpg?text={label}", caption=f"이미지: {label}", use_column_width=True)
+            st.image(f"https://i.ibb.co/9q8q2BJ/8ecdd5b758767e262ea44bc378b4e195.webp?text={label}", caption=f"이미지: {label}", use_column_width=True)
 
     # 2nd Row - YouTube Videos based on labels
     for i, label in enumerate(labels[:3]):
